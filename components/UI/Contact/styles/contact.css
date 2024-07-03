@@ -1,0 +1,9 @@
+/* body {
+  background: url("/images/bg/contact-bg.jpg") no-repeat fixed;
+  background-size: cover;
+  min-height: 100vh;
+} */
+
+.jumbo {
+  min-height: calc(100vh - 10rem);
+}

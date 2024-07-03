@@ -1,0 +1,29 @@
+.full-prev {
+  backdrop-filter: blur(8px);
+}
+
+.star-el {
+  background: linear-gradient(45deg, orange, yellow);
+  background-clip: text;
+}
+
+.picked-review {
+  animation: review-pop .3s ease-in-out;
+}
+
+.multi-img::-webkit-scrollbar {
+  height: 6px;
+  margin-top: 4px;
+  border-radius: 6px;
+}
+
+@keyframes review-pop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+

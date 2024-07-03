@@ -1,0 +1,129 @@
+:root {
+  --base-background-color: #17181f;
+  --base-background-darker-color: #0c0d10;
+  --base-background-lightish-color: #1f2029;
+  --base-background-lightish-2-color: #383946;
+  --base-foreground-color: #eeeff0;
+
+  --base-accent-1-color: #c68661;
+  --base-accent-2-color: #e87f42;
+
+  --base-accent-1-darker-color: #b07757;
+  --base-accent-2-darker-color: #ce7039;
+
+  --base-padding: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgb(217, 100, 50);
+}
+
+.dash-clamper {
+  position: relative;
+  max-width: 1688px;
+  margin-inline: auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.link-container p {
+  margin-left: 2rem;
+}
+
+.dash-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.user-img {
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+  border-radius: 50%;
+  margin-inline: auto;
+  background: linear-gradient(45deg, var(--base-accent-1-color), var(--base-accent-2-color));
+}
+
+.bottom-profile {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: var(--base-padding);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini-user-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.mini-user-details-container div:nth-child(2) {
+  margin-left: 0.5rem;
+}
+
+.mini-username {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.mini-status {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.mini-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--base-accent-1-color), var(--base-accent-2-color));
+}
+
+.setting-icon:hover {
+  cursor: pointer;
+}
+
+.bottom-container i {
+  font-size: 1.2rem;
+}
+
+/* Dashboard Navbar */
+.dashboard-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.202);
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-content h1 {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.nav-content > ul > li {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.nav-search-box > input {
+  background: transparent !important;
+  outline: none;
+}

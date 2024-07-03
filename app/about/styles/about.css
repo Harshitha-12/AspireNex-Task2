@@ -1,0 +1,36 @@
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.about-header {
+  background: url("/images/bg/about-bg.jpg") no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bstore {
+  font-size: 5rem;
+  background: -webkit-linear-gradient(left, rgb(246, 187, 246), rgb(138, 224, 239), rgb(234, 122, 32));
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 800;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 368px) {
+  .bstore {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bstore {
+    font-size: 3rem;
+  }
+  .about-header {
+    background-attachment: scroll;
+  }
+}

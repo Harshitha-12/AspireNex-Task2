@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+  .create-con {
+    grid-template-columns: 1fr 4fr;
+  }
+}
+
+.productImageSlider::-webkit-scrollbar {
+  height: 6px;
+}
